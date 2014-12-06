@@ -1,6 +1,8 @@
 require 'rubygems'
+require 'bundler/setup'
+
 require 'redis'
-require 'rspec-expectations'
+require 'rspec/expectations'
 require 'timecop'
 
 require_relative '../values_recorder'
