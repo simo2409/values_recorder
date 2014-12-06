@@ -4,6 +4,10 @@
 
 ---
 
+[ ![Codeship Status for simo2409/values_recorder](https://codeship.com/projects/d0505420-5f51-0132-1861-7eb424531d0a/status?branch=master)](https://codeship.com/projects/51510)
+
+---
+
 This library uses a redis connection (it should be already available in $redis) to store multiple values inside some time-related values.
 
 It uses two values for each stored item, 1 for time (when happened) and 1 for the correlated value.
