@@ -3,11 +3,13 @@
 *by Simone Dall'Angelo, 2014*
 
 ---
-This library uses a redis connection (it should be already available in $redis) to store
-multiple values inside some time-related values.
-It uses two values for each stored item, 1 for time (when happened)
-and 1 for the correlated value.
+
+This library uses a redis connection (it should be already available in $redis) to store multiple values inside some time-related values.
+
+It uses two values for each stored item, 1 for time (when happened) and 1 for the correlated value.
+
 By default each key can stores up to 100 stored values, when 101th value arrives the library drops the 1st.
+
 ---
 
 ## API ##
